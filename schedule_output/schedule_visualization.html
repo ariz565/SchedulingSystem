@@ -1,0 +1,56 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Schedule Visualization</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .metrics { display: flex; flex-wrap: wrap; }
+                .metric-card { border: 1px solid #ddd; border-radius: 5px; 
+                               padding: 15px; margin: 10px; flex: 1 1 200px; }
+                .stat { font-size: 24px; font-weight: bold; color: #007bff; }
+            </style>
+        </head>
+        <body>
+            <h1>Schedule Visualization</h1>
+            
+            <div class="metrics">
+                <div class="metric-card">
+                    <h3>Satisfaction Rate</h3>
+                    <div class="stat">60.13%</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Avg Courses/Student</h3>
+                    <div class="stat">4.85</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Avg Courses/Teacher</h3>
+                    <div class="stat">3.37</div>
+                </div>
+            </div>
+            
+            <h2>Student Schedule Samples</h2>
+            <table>
+                <tr>
+                    <th>Student ID</th>
+        <th>1A</th><th>1B</th><th>2A</th><th>2B</th><th>3</th><th>4A</th><th>4B</th></tr><tr><td>5407488</td><td>BIB10 (Section 1)</td><td>TECHGRAPHIC (Section 1)</td><td>MATALG2H (Section 1)</td><td></td><td>SCIPHY (Section 1)</td><td></td><td>SOC10GOV (Section 1)</td></tr><tr><td>5361842</td><td>BIB10 (Section 1)</td><td>PEHealthHS (Section 2)</td><td>MATALG2H (Section 1)</td><td>LANSP2 (Section 1)</td><td>SOC10GOVH (Section 1)</td><td></td><td>SCICHEM10H (Section 1)</td></tr><tr><td>5361867</td><td>BIB10 (Section 1)</td><td></td><td>MATALG2H (Section 1)</td><td>LANSP2 (Section 1)</td><td>SOC10GOVH (Section 1)</td><td></td><td>SCICHEM10H (Section 1)</td></tr><tr><td>5361838</td><td>BIB10 (Section 1)</td><td>TECHGRAPHIC (Section 1)</td><td></td><td>LANSP2 (Section 1)</td><td>ENG10 (Section 1)</td><td></td><td>SOC10GOV (Section 1)</td></tr><tr><td>5361859</td><td>BIB10 (Section 1)</td><td></td><td>MATALG2H (Section 1)</td><td>LANSP2 (Section 1)</td><td>SOC10GOVH (Section 1)</td><td></td><td>SCICHEM10H (Section 1)</td></tr>
+            </table>
+            
+            <h2>Teacher Schedule Samples</h2>
+            <table>
+                <tr>
+                    <th>Teacher ID</th>
+        <th>1A</th><th>1B</th><th>2A</th><th>2B</th><th>3</th><th>4A</th><th>4B</th></tr><tr><td>5361400</td><td>BIB10 (Section 1)</td><td>BIB10 (Section 2)</td><td>BIB9 (Section 2)</td><td>FAF (Section 1)</td><td></td><td></td><td></td></tr><tr><td>5361454</td><td>BIB9 (Section 1)</td><td>BIB12 (Section 1)</td><td>BIB12 (Section 2)</td><td></td><td></td><td></td><td></td></tr><tr><td>5361492</td><td>SOC9 (Section 1)</td><td>SOC9 (Section 2)</td><td>SOC10GOV (Section 1)</td><td>SOC10GOV (Section 2)</td><td>SOC10GOVH (Section 1)</td><td>SOC9 (Section 1)</td><td>SOC10GOV (Section 1)</td></tr><tr><td>5361417</td><td>BIB11 (Section 1)</td><td>BIB11 (Section 2)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5361474</td><td>ENG10H (Section 1)</td><td>ENG11AMLTH- (Section 1)</td><td>DEENG151 (Section 1)</td><td>ENG12WORLDH (Section 1)</td><td>ENG10 (Section 1)</td><td>ENG12WORLD (Section 1)</td><td>DEENG101 (Section 1)</td></tr>
+            </table>
+            
+            <h2>Images</h2>
+            <img src="student_block_distribution.png" alt="Student Block Distribution">
+            <img src="section_fill_rates.png" alt="Section Fill Rates">
+        </body>
+        </html>
+        

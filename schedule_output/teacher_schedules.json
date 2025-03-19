@@ -1,0 +1,163 @@
+{
+    "5361400": {
+        "1A": "BIB10 (Section 1)",
+        "1B": "BIB10 (Section 2)",
+        "2A": "BIB9 (Section 2)",
+        "2B": "FAF (Section 1)"
+    },
+    "5361454": {
+        "1A": "BIB9 (Section 1)",
+        "1B": "BIB12 (Section 1)",
+        "2A": "BIB12 (Section 2)"
+    },
+    "5361492": {
+        "1A": "SOC9 (Section 1)",
+        "1B": "SOC9 (Section 2)",
+        "2A": "SOC10GOV (Section 1)",
+        "2B": "SOC10GOV (Section 2)",
+        "3": "SOC10GOVH (Section 1)",
+        "4A": "SOC9 (Section 1)",
+        "4B": "SOC10GOV (Section 1)"
+    },
+    "5361417": {
+        "1A": "BIB11 (Section 1)",
+        "1B": "BIB11 (Section 2)"
+    },
+    "5361474": {
+        "1A": "ENG10H (Section 1)",
+        "1B": "ENG11AMLTH- (Section 1)",
+        "2A": "DEENG151 (Section 1)",
+        "2B": "ENG12WORLDH (Section 1)",
+        "3": "ENG10 (Section 1)",
+        "4A": "ENG12WORLD (Section 1)",
+        "4B": "DEENG101 (Section 1)"
+    },
+    "5407259": {
+        "1A": "MATALG2H (Section 1)",
+        "1B": "MATGEOMH (Section 1)",
+        "2A": "MATALG2H (Section 1)",
+        "2B": "MATGEOMH (Section 1)"
+    },
+    "5361526": {
+        "1A": "SCIPHY (Section 1)",
+        "1B": "SCIMABIO (Section 1)",
+        "2A": "MATALG1 (Section 1)",
+        "2B": "MATALG1H (Section 1)",
+        "3": "SCIPHY (Section 1)"
+    },
+    "5361540": {
+        "1A": "LANSP3 (Section 1)",
+        "1B": "LANSP1 (Section 1)",
+        "2A": "LANSP1 (Section 2)",
+        "2B": "LANSP2 (Section 1)",
+        "3": "LANSP2 (Section 2)"
+    },
+    "5361516": {
+        "1A": "TECHDIGIT (Section 1)",
+        "1B": "TECHGRAPHIC (Section 1)",
+        "2A": "TECHGRAPHIC (Section 2)",
+        "2B": "APComp (Section 1)",
+        "3": "TECHADVROB (Section 1)",
+        "4A": "APComp (Section 1)"
+    },
+    "5361498": {
+        "1A": "SCICHEM10H (Section 1)",
+        "1B": "SCICHEM10H (Section 2)",
+        "2A": "SCIANATPH (Section 1)",
+        "2B": "DEBIO101 (Section 1)",
+        "3": "SCIPHYH (Section 1)",
+        "4A": "DECHEM105 (Section 1)",
+        "4B": "SCICHEM10H (Section 1)"
+    },
+    "5322089": {
+        "1A": "ENG9 (Section 1)",
+        "1B": "ENG11 (Section 1)",
+        "2A": "ENG9H (Section 1)",
+        "2B": "ENGJOUR (Section 1)",
+        "3": "SOCIB (Section 1)",
+        "4A": "ENGSPCH (Section 1)",
+        "4B": "ENG11 (Section 1)"
+    },
+    "5361409": {
+        "1A": "SCIBIOH (Section 1)",
+        "1B": "SCIBIO (Section 1)",
+        "2A": "SCIERTH (Section 1)",
+        "2B": "SCIERTH (Section 2)",
+        "3": "SCIBIOH (Section 1)",
+        "4A": "SCIBIO (Section 1)",
+        "4B": "SCIERTH (Section 1)"
+    },
+    "5361461": {
+        "1A": "SOC11 (Section 1)",
+        "1B": "FINLIT (Section 1)",
+        "2A": "SOC11 (Section 1)"
+    },
+    "5361380": {
+        "1A": "MATALG2 (Section 1)",
+        "1B": "MATALG2 (Section 1)"
+    },
+    "5361420": {
+        "1B": "MATALG2 (Section 2)"
+    },
+    "5361411": {
+        "1A": "PEHealthHS (Section 1)",
+        "1B": "PEHealthHS (Section 2)",
+        "2A": "PEHS (Section 1)",
+        "2B": "PEHS (Section 2)",
+        "3": "PERS (Section 1)",
+        "4A": "PEPF (Section 1)"
+    },
+    "5361412": {
+        "1A": "MATTrigH (Section 1)",
+        "1B": "MATTRIG (Section 1)",
+        "2A": "MATHALGIII (Section 1)",
+        "2B": "MATAPCALCAB (Section 1)",
+        "3": "MATHSTATSH (Section 1)",
+        "4A": "MATDESTATS (Section 1)",
+        "4B": "MATTrigH (Section 1)"
+    },
+    "5361422": {
+        "2A": "DEWCIV1 (Section 1)",
+        "2B": "DESOCWCIV2 (Section 1)"
+    },
+    "5361415": {
+        "1A": "ARTSTD1 (Section 1)",
+        "1B": "ARTSTD2 (Section 1)",
+        "2A": "ARTDRAW (Section 1)"
+    },
+    "5396676": {
+        "1A": "TECHYEAR (Section 1)"
+    },
+    "unknown_STUDY": {
+        "1A": "STUDY (Section 1)"
+    },
+    "unknown_INTERN1": {
+        "1A": "INTERN1 (Section 1)"
+    },
+    "unknown_INTERN2": {
+        "1A": "INTERN2 (Section 1)"
+    },
+    "5361519": {
+        "1A": "ARTBND (Section 1)"
+    },
+    "unknown_INDSTUDY1": {
+        "1A": "INDSTUDY1 (Section 1)"
+    },
+    "unknown_INDSTUDY2": {
+        "1A": "INDSTUDY2 (Section 1)"
+    },
+    "5361487": {
+        "1A": "ARTChor (Section 1)"
+    },
+    "unknown_MATGEOM": {
+        "1A": "MATGEOM (Section 1)",
+        "1B": "MATGEOM (Section 1)"
+    },
+    "unknown_nan": {
+        "1A": "nan (Section 1)"
+    },
+    "5361457": {
+        "1A": "DESOCIP (Section 1)",
+        "1B": "DEITCHG (Section 1)"
+    }
+}

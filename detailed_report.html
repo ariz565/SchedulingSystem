@@ -1,0 +1,275 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Course Scheduling Data Analysis - Detailed Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+                h1, h2, h3 { color: #333; }
+                .container { max-width: 1200px; margin: 0 auto; }
+                pre { background-color: #f5f5f5; padding: 10px; border-radius: 5px; overflow-x: auto; }
+                table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>Course Scheduling Data Analysis - Detailed Report</h1>
+                
+                <h2>1. Data Overview</h2>
+        
+                <p>The dataset consists of:</p>
+                <ul>
+                    <li><strong>Courses:</strong> 75</li>
+                    <li><strong>Course Sections:</strong> 83</li>
+                    <li><strong>Student Requests:</strong> 1259</li>
+                    <li><strong>Unique Students:</strong> 156</li>
+                </ul>
+                
+                <h2>2. Data Processing</h2>
+                <p>The raw Excel data was processed to create a structured JSON format with the following components:</p>
+                <ul>
+                    <li><strong>Course Listings:</strong> Information about course sections and lecturers</li>
+                    <li><strong>Course Characteristics:</strong> Details about each course including availability and capacity</li>
+                    <li><strong>Student Requests:</strong> Student course requests including priorities</li>
+                    <li><strong>Rules:</strong> Scheduling rules extracted from the RULES sheet</li>
+                </ul>
+                
+                <h3>Code Sample - Data Loading and Cleaning:</h3>
+                <pre>
+def load_and_clean_data(file_path='dataset.xlsx'):
+    # Check if file exists
+    if not os.path.exists(file_path):
+        print(f"Error: File '{file_path}' not found.")
+        return None
+    
+    # Load Excel file
+    try:
+        xls = pd.ExcelFile(file_path)
+        print(f"Found sheets: {xls.sheet_names}")
+        structured_data = {}
+        
+        # Process sheets and create structured data
+        # ...
+        
+        return structured_data
+    except Exception as e:
+        print(f"Error loading Excel file: {e}")
+        return None
+                </pre>
+                
+                <h2>3. Validation Results</h2>
+                <h3>Issues Identified:</h3>
+                <ul>
+        <li>Missing required course: Only 30/36 1st Year students requested BIB9</li>
+<li>Missing required course: Only 40/41 2nd Year students requested BIB10</li>
+<li>Courses with no requests: LIVEWELL, MATALG1MS, MATFUND, MATHPreALGH7, MATPreALG, MATTRAN</li>
+<li>Under-subscribed: ARTBND has only 19 requests for 40 spots</li>
+<li>Under-subscribed: ARTChor has only 16 requests for 40 spots</li>
+<li>Under-subscribed: ARTSTD1 has only 10 requests for 26 spots</li>
+<li>Under-subscribed: ARTSTD2 has only 11 requests for 26 spots</li>
+<li>Under-subscribed: DECHEM105 has only 2 requests for 26 spots</li>
+<li>Under-subscribed: DEENG101 has only 1 requests for 26 spots</li>
+<li>Over-subscribed: DEENG151 has 30 requests but 26 spots</li>
+<li>Under-subscribed: DEITCHG has only 2 requests for 26 spots</li>
+<li>Under-subscribed: DESOCIP has only 5 requests for 26 spots</li>
+<li>Under-subscribed: DESOCWCIV2 has only 4 requests for 26 spots</li>
+<li>Under-subscribed: ENG12WORLD has only 12 requests for 26 spots</li>
+<li>Under-subscribed: ENG12WORLDH has only 7 requests for 26 spots</li>
+<li>Under-subscribed: ENGSPCH has only 2 requests for 26 spots</li>
+<li>Under-subscribed: FAF has only 10 requests for 40 spots</li>
+<li>Under-subscribed: FINLIT has only 24 requests for 52 spots</li>
+<li>Under-subscribed: LANSP3 has only 10 requests for 26 spots</li>
+<li>No demand: LIVEWELL has 4 sections but 0 requests</li>
+<li>Under-subscribed: MATALG1 has only 8 requests for 26 spots</li>
+<li>Under-subscribed: MATALG1H has only 5 requests for 26 spots</li>
+<li>Over-subscribed: MATALG2H has 31 requests but 26 spots</li>
+<li>Under-subscribed: MATAPCALCAB has only 6 requests for 26 spots</li>
+<li>Under-subscribed: MATDESTATS has only 1 requests for 26 spots</li>
+<li>No demand: MATFUND has 1 sections but 0 requests</li>
+<li>Under-subscribed: MATHALGIII has only 11 requests for 26 spots</li>
+<li>No demand: MATHPreALGH7 has 1 sections but 0 requests</li>
+<li>Under-subscribed: MATHSTATSH has only 6 requests for 26 spots</li>
+<li>No demand: MATPreALG has 2 sections but 0 requests</li>
+<li>No demand: MATTRAN has 2 sections but 0 requests</li>
+<li>Under-subscribed: PEHealthHS has only 37 requests for 78 spots</li>
+<li>Under-subscribed: PEPF has only 9 requests for 26 spots</li>
+<li>Under-subscribed: SCIMABIO has only 10 requests for 26 spots</li>
+<li>Over-subscribed: SOC11 has 29 requests but 26 spots</li>
+<li>Under-subscribed: SOCIB has only 2 requests for 26 spots</li>
+<li>Under-subscribed: TECHADVROB has only 8 requests for 26 spots</li>
+<li>Over-subscribed: TECHDIGIT has 33 requests but 26 spots</li>
+<li>Under-subscribed: TECHYEAR has only 6 requests for 26 spots</li>
+<li>Under-subscribed: PERS has only 8 requests for 26 spots</li>
+<li>Under-subscribed: SCIPHYH has only 7 requests for 26 spots</li>
+<li>Over-subscribed: SOCMODUS has 4 requests but 0 spots</li>
+<li>Over-subscribed: TECHBRJR has 3 requests but 0 spots</li>
+<li>No demand: MATALG1MS has 2 sections but 0 requests</li>
+<li>Under-subscribed: APComp has only 6 requests for 20 spots</li>
+<li>Under-subscribed: ENGJOUR has only 1 requests for 26 spots</li>
+<li>Over-subscribed: SOCCONT has 5 requests but 0 spots</li>
+
+                </ul>
+                
+                <h3>Key Insights:</h3>
+                <ul>
+        <li>Identified 6 unique blocks from rules: 1A, 1B, 2A, 2B, 4A, 4B</li>
+<li>Total requests: 1259 (Required: 178, Requested: 963, Recommended: 118)</li>
+<li>Total unique students: 156</li>
+<li>2nd Year: 41 students</li>
+<li>1st Year: 36 students</li>
+<li>3rd year: 42 students</li>
+<li>4th Year: 37 students</li>
+<li>1st Year - BIB9: 30/36 requested</li>
+<li>2nd Year - BIB10: 40/41 requested</li>
+<li>3rd Year - BIB11: 0/0 requested</li>
+<li>4th Year - BIB12: 37/37 requested</li>
+<li>6 courses have no student requests</li>
+<li>7 courses are over-subscribed</li>
+<li>31 courses are under-subscribed (less than 50% capacity)</li>
+<li>Total unique lecturers: 23</li>
+<li>Lecturers teach between 1 and 7 courses</li>
+<li>Total unique rooms: 20</li>
+
+                </ul>
+                
+                <h2>4. Rules Analysis</h2>
+                <p>The following scheduling rules were identified from the dataset:</p>
+                <ul>
+        <li><strong>Rule 1:</strong> The  has N number of blocks - namely : ["1A","1B","2A","2B","3","4A","4B"]</li>
+<li><strong>Rule 2:</strong> Blocks refer to fixed time periods or chunks of time during the  day when specific classes or activities are scheduled. Unlike traditional period-based systems (common in countries like India, where t...</li>
+<li><strong>Rule 3:</strong> No teacher can be present twice in same block</li>
+<li><strong>Rule 4:</strong> No student can be present twice in same block</li>
+<li><strong>Rule 5:</strong> You need to assign student to section of the requested course in a particular block so that we 
+maximize the number of resolutions of students requests received</li>
+<li><strong>Rule 6:</strong> Students of different year can be assigned to same sections if they have requested for the same course </li>
+<li><strong>Rule 7:</strong> No sections should be overcrowded - distribute the course requested students almost equally across the available sections of that particular course</li>
+<li><strong>Rule 8:</strong> "Required" > "Requested" > "Recommended", 
+this is the order of priority of requests, treat it as P1, P2, P3 </li>
+<li><strong>Rule 9:</strong> Available blocks & Unavailable blocks columns in Course list are exactly what they sound like, you can schedule sections of those courses only in one of the blocks available in `Available Blocks` list...</li>
+<li><strong>Rule 10:</strong> Length / Course Length (1 = One Term, 2 = Full Year) / Credits determine if the course will run for the entire year or Half a year </li>
+
+                </ul>
+                
+                <h2>5. Data Samples</h2>
+                <h3>Course Characteristics Sample:</h3>
+                <table>
+                    <tr>
+                        <th>Course Code</th>
+                        <th>Title</th>
+                        <th>Length</th>
+                        <th>Priority</th>
+                        <th>Capacity</th>
+                    </tr>
+        
+                    <tr>
+                        <td>ARTBND</td>
+                        <td>Band - High </td>
+                        <td>2.0</td>
+                        <td>Core course</td>
+                        <td>40</td>
+                    </tr>
+            
+                    <tr>
+                        <td>ARTChor</td>
+                        <td>Chorus - High </td>
+                        <td>2.0</td>
+                        <td>Core course</td>
+                        <td>40</td>
+                    </tr>
+            
+                    <tr>
+                        <td>ARTDRAW</td>
+                        <td>Drawing and Painting</td>
+                        <td>2.0</td>
+                        <td>Core course</td>
+                        <td>26</td>
+                    </tr>
+            
+                    <tr>
+                        <td>ARTSTD1</td>
+                        <td>Studio Art I</td>
+                        <td>1.0</td>
+                        <td>Core course</td>
+                        <td>26</td>
+                    </tr>
+            
+                    <tr>
+                        <td>ARTSTD2</td>
+                        <td>Studio Art II</td>
+                        <td>1.0</td>
+                        <td>Core course</td>
+                        <td>26</td>
+                    </tr>
+            
+                </table>
+                
+                <h3>Student Requests Sample:</h3>
+                <table>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>College Year</th>
+                        <th>Course Code</th>
+                        <th>Type</th>
+                        <th>Priority</th>
+                    </tr>
+        
+                    <tr>
+                        <td>5407488</td>
+                        <td>2nd Year</td>
+                        <td>BIB10</td>
+                        <td>Required</td>
+                        <td>Core course</td>
+                    </tr>
+            
+                    <tr>
+                        <td>5407488</td>
+                        <td>2nd Year</td>
+                        <td>ENG10H</td>
+                        <td>Requested</td>
+                        <td>Core course</td>
+                    </tr>
+            
+                    <tr>
+                        <td>5407488</td>
+                        <td>2nd Year</td>
+                        <td>MATALG2H</td>
+                        <td>Requested</td>
+                        <td>Core course</td>
+                    </tr>
+            
+                    <tr>
+                        <td>5407488</td>
+                        <td>2nd Year</td>
+                        <td>SCIPHY</td>
+                        <td>Requested</td>
+                        <td>Core course</td>
+                    </tr>
+            
+                    <tr>
+                        <td>5407488</td>
+                        <td>2nd Year</td>
+                        <td>SOC10GOV</td>
+                        <td>Requested</td>
+                        <td>Core course</td>
+                    </tr>
+            
+                </table>
+                
+                <h2>6. Conclusion</h2>
+                <p>
+                    This analysis provides a structured view of the course scheduling data, including validation of key metrics,
+                    identification of potential issues, and extraction of scheduling rules. The data has been cleaned and 
+                    structured to facilitate further scheduling optimizations.
+                </p>
+                
+                <p>
+                    Based on the analysis, we can identify scheduling constraints, course demand patterns, and potential 
+                    capacity issues that need to be addressed in the scheduling process.
+                </p>
+            </div>
+        </body>
+        </html>
+        

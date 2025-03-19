@@ -1,0 +1,412 @@
+{
+    "satisfaction_rate": 60.12708498808578,
+    "request_types": {
+        "Required": 178,
+        "Requested": 523,
+        "Recommended": 56
+    },
+    "section_fill_rates": {
+        "BIB10_1": {
+            "students": 26,
+            "capacity": 26,
+            "fill_rate": 100.0
+        },
+        "BIB10_2": {
+            "students": 14,
+            "capacity": 26,
+            "fill_rate": 53.84615384615385
+        },
+        "BIB9_1": {
+            "students": 26,
+            "capacity": 26,
+            "fill_rate": 100.0
+        },
+        "BIB9_2": {
+            "students": 4,
+            "capacity": 26,
+            "fill_rate": 15.384615384615385
+        },
+        "SOC9_1": {
+            "students": 26,
+            "capacity": 26,
+            "fill_rate": 100.0
+        },
+        "SOC9_2": {
+            "students": 5,
+            "capacity": 26,
+            "fill_rate": 19.230769230769234
+        },
+        "BIB11_1": {
+            "students": 26,
+            "capacity": 26,
+            "fill_rate": 100.0
+        },
+        "BIB11_2": {
+            "students": 15,
+            "capacity": 26,
+            "fill_rate": 57.692307692307686
+        },
+        "BIB12_1": {
+            "students": 26,
+            "capacity": 26,
+            "fill_rate": 100.0
+        },
+        "BIB12_2": {
+            "students": 11,
+            "capacity": 26,
+            "fill_rate": 42.30769230769231
+        },
+        "ENG10H_1": {
+            "students": 5,
+            "capacity": 26,
+            "fill_rate": 19.230769230769234
+        },
+        "MATALG2H_1": {
+            "students": 24,
+            "capacity": 26,
+            "fill_rate": 92.3076923076923
+        },
+        "SCIPHY_1": {
+            "students": 16,
+            "capacity": 26,
+            "fill_rate": 61.53846153846154
+        },
+        "SOC10GOV_1": {
+            "students": 26,
+            "capacity": 26,
+            "fill_rate": 100.0
+        },
+        "SOC10GOV_2": {
+            "students": 5,
+            "capacity": 26,
+            "fill_rate": 19.230769230769234
+        },
+        "LANSP3_1": {
+            "students": 5,
+            "capacity": 26,
+            "fill_rate": 19.230769230769234
+        },
+        "TECHDIGIT_1": {
+            "students": 16,
+            "capacity": 26,
+            "fill_rate": 61.53846153846154
+        },
+        "TECHGRAPHIC_1": {
+            "students": 17,
+            "capacity": 26,
+            "fill_rate": 65.38461538461539
+        },
+        "TECHGRAPHIC_2": {
+            "students": 10,
+            "capacity": 26,
+            "fill_rate": 38.46153846153847
+        },
+        "SCICHEM10H_1": {
+            "students": 26,
+            "capacity": 26,
+            "fill_rate": 100.0
+        },
+        "SCICHEM10H_2": {
+            "students": 3,
+            "capacity": 26,
+            "fill_rate": 11.538461538461538
+        },
+        "SOC10GOVH_1": {
+            "students": 17,
+            "capacity": 26,
+            "fill_rate": 65.38461538461539
+        },
+        "ENG9_1": {
+            "students": 0,
+            "capacity": 26,
+            "fill_rate": 0.0
+        },
+        "SCIBIOH_1": {
+            "students": 21,
+            "capacity": 26,
+            "fill_rate": 80.76923076923077
+        },
+        "LANSP1_1": {
+            "students": 22,
+            "capacity": 26,
+            "fill_rate": 84.61538461538461
+        },
+        "LANSP1_2": {
+            "students": 6,
+            "capacity": 26,
+            "fill_rate": 23.076923076923077
+        },
+        "MATGEOMH_1": {
+            "students": 19,
+            "capacity": 26,
+            "fill_rate": 73.07692307692307
+        },
+        "ENG11_1": {
+            "students": 16,
+            "capacity": 26,
+            "fill_rate": 61.53846153846154
+        },
+        "SOC11_1": {
+            "students": 22,
+            "capacity": 26,
+            "fill_rate": 84.61538461538461
+        },
+        "MATALG2_1": {
+            "students": 14,
+            "capacity": 26,
+            "fill_rate": 53.84615384615385
+        },
+        "MATALG2_2": {
+            "students": 0,
+            "capacity": 26,
+            "fill_rate": 0.0
+        },
+        "LANSP2_1": {
+            "students": 26,
+            "capacity": 26,
+            "fill_rate": 100.0
+        },
+        "LANSP2_2": {
+            "students": 15,
+            "capacity": 26,
+            "fill_rate": 57.692307692307686
+        },
+        "PEHealthHS_1": {
+            "students": 8,
+            "capacity": 26,
+            "fill_rate": 30.76923076923077
+        },
+        "PEHealthHS_2": {
+            "students": 5,
+            "capacity": 26,
+            "fill_rate": 19.230769230769234
+        },
+        "PEHS_1": {
+            "students": 21,
+            "capacity": 26,
+            "fill_rate": 80.76923076923077
+        },
+        "PEHS_2": {
+            "students": 6,
+            "capacity": 26,
+            "fill_rate": 23.076923076923077
+        },
+        "ENG11AMLTH-_1": {
+            "students": 5,
+            "capacity": 26,
+            "fill_rate": 19.230769230769234
+        },
+        "MATTrigH_1": {
+            "students": 10,
+            "capacity": 26,
+            "fill_rate": 38.46153846153847
+        },
+        "DEWCIV1_1": {
+            "students": 12,
+            "capacity": 26,
+            "fill_rate": 46.15384615384615
+        },
+        "SCIANATPH_1": {
+            "students": 3,
+            "capacity": 26,
+            "fill_rate": 11.538461538461538
+        },
+        "ARTSTD1_1": {
+            "students": 1,
+            "capacity": 26,
+            "fill_rate": 3.8461538461538463
+        },
+        "ARTSTD2_1": {
+            "students": 3,
+            "capacity": 26,
+            "fill_rate": 11.538461538461538
+        },
+        "MATTRIG_1": {
+            "students": 4,
+            "capacity": 26,
+            "fill_rate": 15.384615384615385
+        },
+        "SCIMABIO_1": {
+            "students": 0,
+            "capacity": 26,
+            "fill_rate": 0.0
+        },
+        "DEENG151_1": {
+            "students": 11,
+            "capacity": 26,
+            "fill_rate": 42.30769230769231
+        },
+        "DEBIO101_1": {
+            "students": 14,
+            "capacity": 26,
+            "fill_rate": 53.84615384615385
+        },
+        "TECHYEAR_1": {
+            "students": 6,
+            "capacity": 26,
+            "fill_rate": 23.076923076923077
+        },
+        "FINLIT_1": {
+            "students": 3,
+            "capacity": 26,
+            "fill_rate": 11.538461538461538
+        },
+        "ENG12WORLDH_1": {
+            "students": 2,
+            "capacity": 26,
+            "fill_rate": 7.6923076923076925
+        },
+        "ENG10_1": {
+            "students": 13,
+            "capacity": 26,
+            "fill_rate": 50.0
+        },
+        "ARTBND_1": {
+            "students": 3,
+            "capacity": 40,
+            "fill_rate": 7.5
+        },
+        "MATALG1_1": {
+            "students": 2,
+            "capacity": 26,
+            "fill_rate": 7.6923076923076925
+        },
+        "SCIBIO_1": {
+            "students": 9,
+            "capacity": 26,
+            "fill_rate": 34.61538461538461
+        },
+        "SCIERTH_1": {
+            "students": 4,
+            "capacity": 26,
+            "fill_rate": 15.384615384615385
+        },
+        "SCIERTH_2": {
+            "students": 14,
+            "capacity": 26,
+            "fill_rate": 53.84615384615385
+        },
+        "MATHALGIII_1": {
+            "students": 1,
+            "capacity": 26,
+            "fill_rate": 3.8461538461538463
+        },
+        "FAF_1": {
+            "students": 7,
+            "capacity": 20,
+            "fill_rate": 35.0
+        },
+        "ARTChor_1": {
+            "students": 3,
+            "capacity": 40,
+            "fill_rate": 7.5
+        },
+        "ENG9H_1": {
+            "students": 3,
+            "capacity": 26,
+            "fill_rate": 11.538461538461538
+        },
+        "MATALG1H_1": {
+            "students": 3,
+            "capacity": 26,
+            "fill_rate": 11.538461538461538
+        },
+        "MATGEOM_1": {
+            "students": 4,
+            "capacity": 26,
+            "fill_rate": 15.384615384615385
+        },
+        "ARTDRAW_1": {
+            "students": 7,
+            "capacity": 26,
+            "fill_rate": 26.923076923076923
+        },
+        "SCIPHYH_1": {
+            "students": 7,
+            "capacity": 26,
+            "fill_rate": 26.923076923076923
+        },
+        "MATAPCALCAB_1": {
+            "students": 3,
+            "capacity": 26,
+            "fill_rate": 11.538461538461538
+        },
+        "ENG12WORLD_1": {
+            "students": 12,
+            "capacity": 26,
+            "fill_rate": 46.15384615384615
+        },
+        "ENGJOUR_1": {
+            "students": 0,
+            "capacity": 26,
+            "fill_rate": 0.0
+        },
+        "APComp_1": {
+            "students": 3,
+            "capacity": 20,
+            "fill_rate": 15.0
+        },
+        "SOCIB_1": {
+            "students": 1,
+            "capacity": 26,
+            "fill_rate": 3.8461538461538463
+        },
+        "DEENG101_1": {
+            "students": 0,
+            "capacity": 26,
+            "fill_rate": 0.0
+        },
+        "DESOCWCIV2_1": {
+            "students": 3,
+            "capacity": 26,
+            "fill_rate": 11.538461538461538
+        },
+        "TECHADVROB_1": {
+            "students": 2,
+            "capacity": 26,
+            "fill_rate": 7.6923076923076925
+        },
+        "MATHSTATSH_1": {
+            "students": 4,
+            "capacity": 26,
+            "fill_rate": 15.384615384615385
+        },
+        "PERS_1": {
+            "students": 5,
+            "capacity": 26,
+            "fill_rate": 19.230769230769234
+        },
+        "PEPF_1": {
+            "students": 5,
+            "capacity": 26,
+            "fill_rate": 19.230769230769234
+        },
+        "DESOCIP_1": {
+            "students": 0,
+            "capacity": 26,
+            "fill_rate": 0.0
+        },
+        "ENGSPCH_1": {
+            "students": 1,
+            "capacity": 26,
+            "fill_rate": 3.8461538461538463
+        },
+        "DEITCHG_1": {
+            "students": 0,
+            "capacity": 26,
+            "fill_rate": 0.0
+        },
+        "DECHEM105_1": {
+            "students": 2,
+            "capacity": 26,
+            "fill_rate": 7.6923076923076925
+        },
+        "MATDESTATS_1": {
+            "students": 0,
+            "capacity": 26,
+            "fill_rate": 0.0
+        }
+    },
+    "avg_courses_per_student": 4.852564102564102,
+    "avg_courses_per_teacher": 3.3666666666666667
+}
